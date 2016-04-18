@@ -1,6 +1,10 @@
 # ReactNativeBlurImageViewSample
 Sample project for React Native module: react-native-blur-image-view
 
+
+![App ScreenShot](https://cloud.githubusercontent.com/assets/880188/14610052/dc87711a-05be-11e6-95e5-bdfdb79b4451.png)
+
+
 Set up project:
 
 ## 0 Setup npm
@@ -32,4 +36,4 @@ Add following code to **build.gradle**:
                        imageUrl={imageData}
           />
           
-###TODO: Add sample and radius params.
+####TODO: Add sample and radius params.
