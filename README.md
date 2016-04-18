@@ -1,6 +1,8 @@
 # ReactNativeBlurImageViewSample
 Sample project for React Native module: react-native-blur-image-view
 
+See Android library: [ReactNativeBlurImageView](https://github.com/herbertdai/ReactNativeBlurImageView)
+
 
 ![App ScreenShot](https://cloud.githubusercontent.com/assets/880188/14610052/dc87711a-05be-11e6-95e5-bdfdb79b4451.png)
 
