@@ -11,12 +11,22 @@ import React, {
   View
 } from 'react-native';
 
+import BlurImageView from 'react-native-blur-image-view';
+
 class BlurImageViewTest extends Component {
+
   render() {
+    let imageData = 'http://img1.gtimg.com/tech/pics/hv1/44/22/2054/133567004.jpg';
+
     return (
       <View style={styles.container}>
+        <BlurImageView style={styles.image}
+                           imageUrl={imageData}
+                       radius={1}
+                       sampling={50}
+          />
         <Text style={styles.welcome}>
-          Welcome to React Native!
+          Herbert, Welcome to React Native!
         </Text>
         <Text style={styles.instructions}>
           To get started, edit index.android.js
@@ -30,6 +40,11 @@ class BlurImageViewTest extends Component {
 }
 
 const styles = StyleSheet.create({
+  image:{
+    width:400,
+    height:200,
+  },
+
   container: {
     flex: 1,
     justifyContent: 'center',

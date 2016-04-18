@@ -1,3 +1,4 @@
 rootProject.name = 'BlurImageViewTest'
 
-include ':app'
+include ':app', ':react-native-blur-image-view'
+project(':react-native-blur-image-view').projectDir = new File(rootProject.projectDir.parent, 'node_modules/react-native-blur-image-view/android')
