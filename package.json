@@ -1,12 +1,25 @@
 {
-  "name": "BlurImageViewTest",
+  "name": "react-native-blur-image-view",
   "version": "0.0.2",
+  "main": "blurimage.android.js",
   "private": true,
   "scripts": {
-    "start": "node node_modules/react-native/local-cli/cli.js start"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "react": "^0.14.8",
-    "react-native": "^0.23.1"
-  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/herbertdai/ReactNativeBlurImageView.git"
+  },
+  "keywords": [
+    "ReactNative",
+    "Blur",
+    "ImageView",
+    "Android"
+  ],
+  "author": "HerbertDai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/herbertdai/ReactNativeBlurImageView/issues"
+  },
+  "homepage": "https://github.com/herbertdai/ReactNativeBlurImageView#readme"
 }
